@@ -25,7 +25,7 @@ the Unity package "pathfindingAlgorithm" is provided.
 
 For a demonstration of the pathfinding algorithms implemented in the scope of this thesis,
 open the scene "TestEnvironment" or "Pathfinding" in the Unity project or import the package
-"pathfindingAlgorithm" into Unity and open the scene "Pathfinding". 
+"pathfindingAlgorithm" into Unity and open the scene "Pathfinding". After importing this package, 
 
 In these scenes one can chose between a cell-grid and a waypoint-based search graph setup as the 
 "Creation Mode"-variable of the "SearchGraphManager"-object. Additonally in the "SearchGraphManager" one can
