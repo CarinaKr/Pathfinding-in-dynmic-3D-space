@@ -6,7 +6,7 @@ developed at the University of Applied Sciences Hamburg.
 
 Next to a written paper the thesis includes a project, where the game environment "Lost in Space" was developed and the pathfinding algorithms A*, ARA*, Theta*, D* Lite, and AD* have been implemented in an abstract test environment. For this project the game engine Unity 2018.2.10f1 has been used.
 
-The full project is included in the folder "LostInSpace", which after being downloaded can be opened as a Unity project. This Unity project includes three game scenes. The scene "LostInSpace" contains the game environment "Lost in Space", with its functionalities as described in the thesis. The scene "TestEnvironment" contains the abstract test environment with all implemented algorithms and was used for all testing and comparison of the algorithms throughout the thesis. As the implementation of the AI and the destination in "TestEnvironment" uses some classes from "Lost in Space", the third scene "Pathfinding" is provided, which is fully decoupled from "Lost in Space". For this last scene, also the Unity package "pathfindingAlgorithm" is provided.
+The full project is included in the folder "LostInSpace", which after being downloaded can be opened as a Unity project. This Unity project includes three game scenes. The scene "LostInSpace" contains the game environment "Lost in Space", with its functionalities as described in the thesis. The scene "TestEnvironment" contains the abstract test environment with all implemented algorithms and was used for all testing and comparison of the algorithms throughout the thesis. As the implementation of the AI and the destination in "TestEnvironment" uses some classes from "Lost In Space", the third scene "Pathfinding" is provided, which is fully decoupled from the game. Additionally, for a demonstration of only the pathfinding algorithms, without any of the game, the Unity package "pathfindingAlgorithms" is provided.
 
 
 
@@ -51,7 +51,7 @@ To change the maximum distance between waypoints in a waypoint-based search grap
 </p>
 
 
-To visualise the full search graph navigate to Assets->Prefabs->Pathfinding->Cell or similarly to Assets->Prefabs->Pathfinding->Waypoint and check the "Show All Nodes" option.
+To visualise the full search graph navigate to Assets->Prefabs->Pathfinding->Cell or accordingly to Assets->Prefabs->Pathfinding->Waypoint and check the "Show All Nodes" option.
 
 <p align="center">
   <img width="230" src="https://github.com/CarinaKr/Pathfinding/blob/master/Figures/manual/cell.PNG">
@@ -76,11 +76,10 @@ For visualising the progress of the pathfinding algorithm, select the according 
 </p>
 
 Selecting the "SearchGraphManager" or "Environment" accordingly, one can then see all nodes in the open list 
-framed in magenta and all nodes in the closed list framed in grey. Please note: visualising the progress of the pathfinding algorithm in this way, increases
-the runtime of the algorithm significantly. Additionally, for a better overview it is advised to uncheck "Show All Nodes" when using this option.
+framed in magenta and all nodes in the closed list framed in grey. Running dynamic algorithms with a static destination, one can also see all nodes that have been changed in the last update of the search graph indicated in blue, and all nodes that have been added to the open list after the last search-graph update in yellow. Please note: visualising the progress of the pathfinding algorithm in this way, increases the runtime of the algorithm significantly. Additionally, for a better overview it is advised to uncheck "Show All Nodes" when using this option.
 
 <p align="center">
   <img width="550" src="https://github.com/CarinaKr/Pathfinding/blob/master/Figures/manual/visualizeA_star.PNG">
 </p>
 
-Running dynamic algorithms with a static destination, one can also see all nodes that have been changed in the last update of the search graph indicated in blue, and all nodes that have been added to the open list after the last search-graph update in yellow.
+
