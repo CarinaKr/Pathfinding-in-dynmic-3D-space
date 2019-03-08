@@ -12,7 +12,11 @@ The full project is included in the folder "LostInSpace", which after being down
 
 ### Demonstration ###
 
-For a demonstration of the pathfinding algorithms implemented in the scope of this thesis, open the scene "TestEnvironment" or "Pathfinding" in the Unity project or import the package "pathfindingAlgorithm" into Unity and open the scene "Pathfinding". 
+For a demonstration of the pathfinding algorithms implemented in the scope of this thesis, open the scene "TestEnvironment" or "Pathfinding" in the Unity project or import the package "pathfindingAlgorithm" into Unity and open the scene "Pathfinding". Should after the import appear an error message similar to: "Assets/Plugins/AsyncAwaitUtil/Source/AwaitExtensions.cs(28,23): error CS1644: Feature 'asynchronous functions' cannot be used because it is not part of the C# 4.0 language specification", navigate to Edit->Project Settings->Player and change the "Scripting Runtime Version" to ".NET 4.x Equivalent" and restart Unity.
+
+<p align="center">
+  <img width="460" src="https://github.com/CarinaKr/Pathfinding/blob/master/Figures/manual/scriptingRuntimeVersion.PNG">
+</p>
 
 In these scenes one can chose between a cell-grid and a waypoint-based search graph setup as the "Creation Mode"-variable of the "SearchGraphManager"-object. Additonally in the "SearchGraphManager" one can chose the interval time.
 
