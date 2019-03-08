@@ -6,15 +6,18 @@ developed at the University of Applied Sciences Hamburg.
 
 Next to a written paper the thesis includes a project, where the game environment "Lost in Space" was developed and the pathfinding algorithms A*, ARA*, Theta*, D* Lite, and AD* have been implemented in an abstract test environment. For this project the game engine Unity 2018.2.10f1 has been used.
 
-The full project is included in the folder "LostInSpace", which after being downloaded can be opened as a Unity project. This Unity project includes three game scenes. The scene "LostInSpace" contains the game environment "Lost in Space", with its functionalities as described in the thesis. The scene "TestEnvironment" contains the abstract test environment with all implemented algorithms, and was used for all testing and comparison of the algorithms throughout the thesis. As the implementation of the AI and the destination in "TestEnvironment" uses some classes from "Lost in Space", the third scene "Pathfinding" is provided, which is fully decoupled from "Lost in Space". For this last scene, also the Unity package "pathfindingAlgorithm" is provided.
+The full project is included in the folder "LostInSpace", which after being downloaded can be opened as a Unity project. This Unity project includes three game scenes. The scene "LostInSpace" contains the game environment "Lost in Space", with its functionalities as described in the thesis. The scene "TestEnvironment" contains the abstract test environment with all implemented algorithms and was used for all testing and comparison of the algorithms throughout the thesis. As the implementation of the AI and the destination in "TestEnvironment" uses some classes from "Lost in Space", the third scene "Pathfinding" is provided, which is fully decoupled from "Lost in Space". For this last scene, also the Unity package "pathfindingAlgorithm" is provided.
 
 
 
 ### Demonstration ###
 
-For a demonstration of the pathfinding algorithms implemented in the scope of this thesis, open the scene "TestEnvironment" or "Pathfinding" in the Unity project or import the package "pathfindingAlgorithm" into Unity and open the scene "Pathfinding". 
+For a demonstration of the pathfinding algorithms implemented in the scope of this thesis, open the scene "TestEnvironment" or "Pathfinding" in the Unity project or import the package "pathfindingAlgorithm" into Unity and open the scene "Pathfinding". Should after the import appear an error message similar to: "Assets/Plugins/AsyncAwaitUtil/Source/AwaitExtensions.cs(28,23): error CS1644: Feature 'asynchronous functions' cannot be used because it is not part of the C# 4.0 language specification", navigate to Edit->Project Settings->Player and change the "Scripting Runtime Version" to ".NET 4.x Equivalent" and restart Unity.
 
-In these scenes one can chose between a cell-grid and a waypoint-based search graph setup as the "Creation Mode"-variable of the "SearchGraphManager"-object. Additonally in the "SearchGraphManager" one can chose the interval time.
+<p align="center">
+  <img width="460" src="https://github.com/CarinaKr/Pathfinding/blob/master/Figures/manual/scriptingRuntimeVersion.PNG">
+
+In these scenes one can chose between a cell-grid and a waypoint-based search graph setup as the "Creation Mode"-variable of the "SearchGraphManager"-object. Additionally in the "SearchGraphManager" one can chose the interval time.
 
 <p align="center">
   <img width="460" src="https://github.com/CarinaKr/Pathfinding/blob/master/Figures/manual/seachGraph.PNG">
@@ -48,7 +51,7 @@ To change the maximum distance between waypoints in a waypoint-based search grap
 </p>
 
 
-To visualise the full searc graph navigate to Assets->Prefabs->Pathfinding->Cell or similarly to Assets->Prefabs->Pathfinding->Waypoint and check the "Show All Nodes" option.
+To visualise the full search graph navigate to Assets->Prefabs->Pathfinding->Cell or similarly to Assets->Prefabs->Pathfinding->Waypoint and check the "Show All Nodes" option.
 
 <p align="center">
   <img width="230" src="https://github.com/CarinaKr/Pathfinding/blob/master/Figures/manual/cell.PNG">
@@ -66,18 +69,18 @@ Whilst running the project, go to the Scene View and select the "SearchGraphMana
 
 Note, that by visualising the search graph the framerate decreases significantly.
 
-For visualising the progress of the pathfinding algorithm, select the according algorithm in the hierarchy andcheck the "Visualize" box.
+For visualising the progress of the pathfinding algorithm, select the according algorithm in the hierarchy and check the "Visualize" box.
 
 <p align="center">
   <img width="300" src="https://github.com/CarinaKr/Pathfinding/blob/master/Figures/manual/A_star-visualize-true.PNG">
 </p>
 
 Selecting the "SearchGraphManager" or "Environment" accordingly, one can then see all nodes in the open list 
-framed in magenta and all nodes in the closed list framed in gray. Please note: visualising the progess of the pathfinding algorithm in this way, increases
-the runtime of the algorithm significantly. Additionally, for a better overview it is advised to unckeck"Show All Nodes" when using this option.
+framed in magenta and all nodes in the closed list framed in grey. Please note: visualising the progress of the pathfinding algorithm in this way, increases
+the runtime of the algorithm significantly. Additionally, for a better overview it is advised to uncheck "Show All Nodes" when using this option.
 
 <p align="center">
   <img width="550" src="https://github.com/CarinaKr/Pathfinding/blob/master/Figures/manual/visualizeA_star.PNG">
 </p>
 
-Running dynamic algorithms with a static destination, one can also see all nodes that have been changed in the last update of the search graph indicated in blue, and and all nodes that have been added to the open list after the last search-graph update in yellow.
+Running dynamic algorithms with a static destination, one can also see all nodes that have been changed in the last update of the search graph indicated in blue, and all nodes that have been added to the open list after the last search-graph update in yellow.
