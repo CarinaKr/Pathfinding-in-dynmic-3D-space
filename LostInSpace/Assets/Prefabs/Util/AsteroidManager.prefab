@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1243994444037298}
+  m_IsPrefabAsset: 1
+--- !u!1 &1243994444037298
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4688226118253988}
+  - component: {fileID: 114326467856760318}
+  m_Layer: 0
+  m_Name: AsteroidManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4688226118253988
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1243994444037298}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114326467856760318
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1243994444037298}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 726828c5754783840b35cc1748e03523, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  asteroids:
+  - {fileID: 1364980469182482, guid: e86d37fb331b84c4fae66f003aa466f2, type: 2}
+  - {fileID: 1326491646205364, guid: 71c8a1df17f6d5c4999487d8cdeb5071, type: 2}
+  - {fileID: 1290103523495948, guid: d294ce7cd1d3cc6459fb4733953231c0, type: 2}
+  - {fileID: 1290103523495948, guid: d294ce7cd1d3cc6459fb4733953231c0, type: 2}
+  - {fileID: 1290103523495948, guid: d294ce7cd1d3cc6459fb4733953231c0, type: 2}
+  - {fileID: 1290103523495948, guid: d294ce7cd1d3cc6459fb4733953231c0, type: 2}
+  ufo: {fileID: 0}
+  layerNum: 4
+  asteroidsNumber: 140000000800000014000000
+  minSize: 080000002800000014000000
+  maxSize: 0a000000320000001e000000
+  moveSpeed: f40100002c01000090010000
+  radius: 200300002003000020030000
+  minRadius: 50
+  ySpread: 100
+  maxNegYOffset: 0

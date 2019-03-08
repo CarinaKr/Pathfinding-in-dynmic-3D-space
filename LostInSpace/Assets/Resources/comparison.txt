@@ -1,0 +1,921 @@
+
+reset
+distance travelled: 0
+
+reset
+distance travelled: 0
+AD* with epsilon 3 and decrease step 0,4
+
+reset
+distance travelled: 0
+
+reset
+distance travelled: 0
+
+reset
+distance travelled: 0
+
+reset
+distance travelled: 0
+AD* with epsilon 3 and decrease step 0,4
+
+reset
+distance travelled: 0
+
+reset
+distance travelled: 0
+
+reset
+distance travelled: 0
+
+reset
+distance travelled: 0
+
+reset
+distance travelled: 0
+
+reset
+distance travelled: 0
+
+reset
+distance travelled: 0
+
+reset
+distance travelled: 0
+
+reset
+distance travelled: 0
+
+reset
+distance travelled: 0
+
+reset
+distance travelled: 0
+
+reset
+distance travelled: 0
+
+reset
+distance travelled: 0
+
+reset
+distance travelled: 0
+
+reset
+distance travelled: 0
+
+reset
+distance travelled: 0
+
+reset
+distance travelled: 0
+
+reset
+distance travelled: 0
+
+reset
+distance travelled: 0
+
+reset
+distance travelled: 0
+
+reset
+distance travelled: 0
+
+reset
+distance travelled: 0
+
+reset
+distance travelled: 0
+
+reset
+distance travelled: 0
+
+reset
+distance travelled: 0
+
+reset
+distance travelled: 0
+A* with epsilon 2
+:expanded: 2565:total algorithm time: 225
+
+reset
+distance travelled: 0
+
+reset
+distance travelled: 0
+A* with epsilon 2
+:expanded: 284:total algorithm time: 13
+
+reset
+distance travelled: 0
+
+reset
+distance travelled: 0
+A* with epsilon 2
+
+reset
+distance travelled: 0
+
+reset
+distance travelled: 0
+A* with epsilon 2
+:expanded: 2565:total algorithm time: 344
+
+reset
+distance travelled: 0
+
+reset
+distance travelled: 0
+ARA* with epsilon 3 and decrease factor 0,4 and min epsilon 1,4
+
+reset
+distance travelled: 0
+
+reset
+distance travelled: 0
+ARA* with epsilon 3 and decrease factor 0,4 and min epsilon 1,4
+
+reset
+distance travelled: 0
+
+reset
+distance travelled: 0
+ARA* with epsilon 3 and decrease factor 0,4 and min epsilon 1,4
+
+reset
+distance travelled: 0
+
+reset
+distance travelled: 0
+ARA* with epsilon 3 and decrease factor 0,2 and min epsilon 1
+
+reset
+distance travelled: 0
+
+reset
+distance travelled: 0
+ARA* with epsilon 3 and decrease factor 0,2 and min epsilon 1
+
+reset
+distance travelled: 0
+
+reset
+distance travelled: 0
+ARA* with epsilon 3 and decrease factor 0,2 and min epsilon 1
+
+reset
+distance travelled: 0
+
+reset
+distance travelled: 0
+ARA* with epsilon 3 and decrease factor 0,2 and min epsilon 1
+
+reset
+distance travelled: 0
+
+reset
+distance travelled: 0
+ARA* with epsilon 3 and decrease factor 0,2 and min epsilon 1
+
+reset
+distance travelled: 0
+
+reset
+distance travelled: 0
+ARA* with epsilon 3 and decrease factor 0,2 and min epsilon 1
+
+reset
+distance travelled: 0
+
+reset
+distance travelled: 0
+ARA* with epsilon 3 and decrease factor 0,2 and min epsilon 1,8
+
+reset
+distance travelled: 0
+
+reset
+distance travelled: 0
+ARA* with epsilon 3 and decrease factor 0,2 and min epsilon 2
+
+reset
+distance travelled: 0
+
+reset
+distance travelled: 0
+Theta* with epsilon: 2
+:expanded: 3642:total algorithm time: 368
+
+reset
+distance travelled: 0
+
+reset
+distance travelled: 0
+D* Lite with epsilon 2
+
+reset
+distance travelled: 0
+
+reset
+distance travelled: 0
+D* Lite with epsilon 2
+
+reset
+distance travelled: 0
+
+reset
+distance travelled: 0
+D* Lite with epsilon 2
+
+reset
+distance travelled: 0
+
+reset
+distance travelled: 0
+D* Lite with epsilon 2
+corridor contains childcorridor contains childcorridor contains childcorridor contains childcorridor contains childcorridor contains childcorridor contains childcorridor contains child
+reset
+distance travelled: 0
+
+reset
+distance travelled: 0
+D* Lite with epsilon 2
+
+reset
+distance travelled: 0
+
+reset
+distance travelled: 0
+AD* with epsilon 3 and decrease step 0,2
+
+reset
+distance travelled: 0
+
+reset
+distance travelled: 0
+AD* with epsilon 3 and decrease step 0,2
+
+reset
+distance travelled: 0
+
+reset
+distance travelled: 0
+
+reset
+distance travelled: 0
+
+reset
+distance travelled: 0
+
+reset
+distance travelled: 0
+
+reset
+distance travelled: 0
+AD* with epsilon 3 and decrease step 0,2
+
+reset
+distance travelled: 0
+
+reset
+distance travelled: 0
+AD* with epsilon 3 and decrease step 0,2
+
+reset
+distance travelled: 0
+
+reset
+distance travelled: 0
+Theta* with epsilon: 2
+:expanded: 3642:total algorithm time: 1085
+
+reset
+distance travelled: 0
+
+reset
+distance travelled: 0
+Theta* with epsilon: 2
+:expanded: 3642:total algorithm time: 1223
+
+reset
+distance travelled: 0
+
+reset
+distance travelled: 0
+Theta* with epsilon: 2
+:expanded: 3642:total algorithm time: 573
+
+reset
+distance travelled: 0
+
+reset
+distance travelled: 0
+Theta* with epsilon: 2
+:expanded: 3642:total algorithm time: 531
+
+reset
+distance travelled: 0
+
+reset
+distance travelled: 0
+Theta* with epsilon: 2
+:expanded: 3642:total algorithm time: 690
+
+reset
+distance travelled: 0
+
+reset
+distance travelled: 0
+
+reset
+distance travelled: 0
+
+reset
+distance travelled: 0
+
+reset
+distance travelled: 0
+
+reset
+distance travelled: 0
+
+reset
+distance travelled: 0
+
+reset
+distance travelled: 0
+
+reset
+distance travelled: 0
+
+reset
+distance travelled: 0
+
+reset
+distance travelled: 0
+
+reset
+distance travelled: 0
+
+reset
+distance travelled: 0
+
+reset
+distance travelled: 0
+
+reset
+distance travelled: 0
+
+reset
+distance travelled: 0
+A* with epsilon 2
+:expanded: 2565:total algorithm time: 254
+
+reset
+distance travelled: 0
+
+reset
+distance travelled: 0
+A* with epsilon 2
+
+reset
+distance travelled: 0
+
+reset
+distance travelled: 0
+A* with epsilon 2
+
+reset
+distance travelled: 0
+
+reset
+distance travelled: 0
+A* with epsilon 2
+
+reset
+distance travelled: 0
+
+reset
+distance travelled: 0
+ARA* with epsilon 3 and decrease factor 0,2 and min epsilon 1
+
+reset
+distance travelled: 0
+
+reset
+distance travelled: 0
+ARA* with epsilon 3 and decrease factor 0,2 and min epsilon 1,4
+
+reset
+distance travelled: 0
+
+reset
+distance travelled: 0
+ARA* with epsilon 3 and decrease factor 0,2 and min epsilon 1,2
+
+reset
+distance travelled: 0
+
+reset
+distance travelled: 0
+ARA* with epsilon 3 and decrease factor 0,2 and min epsilon 1
+
+reset
+distance travelled: 0
+
+reset
+distance travelled: 0
+
+reset
+distance travelled: 1000,681
+success
+
+
+reset
+distance travelled: 0
+
+reset
+distance travelled: 0
+
+reset
+distance travelled: 0
+
+reset
+distance travelled: 0
+
+reset
+distance travelled: 0
+
+reset
+distance travelled: 0
+
+reset
+distance travelled: 0
+
+reset
+distance travelled: 0
+
+reset
+distance travelled: 0
+
+reset
+distance travelled: 0
+
+reset
+distance travelled: 1583,199
+
+reset
+distance travelled: 0
+
+reset
+distance travelled: 0
+
+reset
+distance travelled: 0
+
+reset
+distance travelled: 0
+
+reset
+distance travelled: 0
+
+reset
+distance travelled: 0
+
+reset
+distance travelled: 752,4
+
+reset
+distance travelled: 791,289
+success
+
+
+reset
+distance travelled: 0
+
+reset
+distance travelled: 0
+
+reset
+distance travelled: 0
+
+reset
+distance travelled: 0
+
+reset
+distance travelled: 0
+
+reset
+distance travelled: 0
+
+reset
+distance travelled: 0
+
+reset
+distance travelled: 0
+A* with epsilon 2
+
+reset
+distance travelled: 0
+
+reset
+distance travelled: 0
+A* with epsilon 2
+:expanded: 205:total algorithm time: 16
+
+reset
+distance travelled: 0
+
+reset
+distance travelled: 0
+A* with epsilon 2
+:expanded: 3197:total algorithm time: 222
+
+reset
+distance travelled: 0
+
+reset
+distance travelled: 0
+ARA* with epsilon 3 and decrease factor 0,2 and min epsilon 1
+
+reset
+distance travelled: 37,21316
+:expanded: 37594:total algorithm time: 218
+
+reset
+distance travelled: 0
+
+reset
+ARA* with epsilon 3 and decrease factor 0,2 and min epsilon 1
+
+reset
+distance travelled: 36,9285
+:expanded: 37669:total algorithm time: 215
+
+reset
+distance travelled: 0
+
+reset
+ARA* with epsilon 3 and decrease factor 0,2 and min epsilon 1
+
+reset
+distance travelled: 0
+A* with epsilon 2
+:expanded: 1133:total algorithm time: 204
+
+reset
+distance travelled: 0
+A* with epsilon 2
+:expanded: 3194:total algorithm time: 239
+
+reset
+distance travelled: 151,3503
+success
+
+:expanded: 377784:total algorithm time: 2461
+
+reset
+distance travelled: 0
+A* with epsilon 2
+:expanded: 3195:total algorithm time: 425
+
+reset
+distance travelled: 147,153
+success
+
+:expanded: 328960:total algorithm time: 2513
+
+reset
+
+reset
+distance travelled: 0
+A* with epsilon 2
+:expanded: 3194:total algorithm time: 236
+
+reset
+
+reset
+distance travelled: 0
+A* with epsilon 2
+:expanded: 3195:total algorithm time: 234
+
+reset
+distance travelled: 0
+A* with epsilon 2
+:expanded: 3195:total algorithm time: 238
+
+reset
+distance travelled: 0
+A* with epsilon 2
+:expanded: 3191:total algorithm time: 242
+
+reset
+distance travelled: 0
+success
+
+:expanded: 353832:total algorithm time: 2532
+
+reset
+distance travelled: 0
+A* with epsilon 2
+
+reset
+distance travelled: 0
+A* with epsilon 2
+
+reset
+
+reset
+
+reset
+distance travelled: 0
+A* with epsilon 2
+
+reset
+distance travelled: 0
+A* with epsilon 2
+
+reset
+distance travelled: 0
+A* with epsilon 2
+
+reset
+distance travelled: 0
+A* with epsilon 2
+
+reset
+distance travelled: 0
+A* with epsilon 2
+
+reset
+A* with epsilon 2
+A* with epsilon 2
+
+reset
+A* with epsilon 2
+A* with epsilon 2
+A* with epsilon 2
+A* with epsilon 2
+A* with epsilon 2
+A* with epsilon 2
+A* with epsilon 2
+A* with epsilon 2
+
+reset
+distance travelled: 0
+:expanded: 37042:total algorithm time: 551
+A* with epsilon 2
+
+reset
+distance travelled: 0
+:expanded: 38376:total algorithm time: 7143
+A* with epsilon 2
+A* with epsilon 2
+
+reset
+distance travelled: 0
+:expanded: 382525:total algorithm time: 2635
+A* with epsilon 2
+
+reset
+distance travelled: 0
+:expanded: 384348:total algorithm time: 2609
+
+reset
+distance travelled: 0
+success
+
+:expanded: 441039:total algorithm time: 3176
+A* with epsilon 2
+
+reset
+distance travelled: 0
+success
+
+:expanded: 350086:total algorithm time: 2614
+
+reset
+distance travelled: 0
+success
+
+:expanded: 406884:total algorithm time: 3342
+
+reset
+distance travelled: 0
+A* with epsilon 2
+
+reset
+distance travelled: 0
+A* with epsilon 2
+
+reset
+distance travelled: 0
+A* with epsilon 2
+:expanded: 3195:total algorithm time: 243
+
+reset
+distance travelled: 0
+success
+
+:expanded: 381877:total algorithm time: 2588
+success
+
+success
+
+success
+
+success
+
+success
+
+
+reset
+distance travelled: 0
+A* with epsilon 2
+:expanded: 3191:total algorithm time: 5536
+
+reset
+distance travelled: 0
+
+reset
+distance travelled: 0
+A* with epsilon 2
+:expanded: 3191:total algorithm time: 4765
+
+reset
+distance travelled: 0
+:expanded: 10062:total algorithm time: 12970
+
+reset
+distance travelled: 0
+:expanded: 12701:total algorithm time: 17171
+
+reset
+distance travelled: 0
+A* with epsilon 2
+:expanded: 227:total algorithm time: 24
+
+reset
+distance travelled: 0
+:expanded: 9508:total algorithm time: 575
+
+reset
+distance travelled: 0
+A* with epsilon 1
+:expanded: 608:total algorithm time: 44
+A* with epsilon 2
+
+reset
+distance travelled: 0
+:expanded: 8168:total algorithm time: 10688
+
+reset
+distance travelled: 0
+A* with epsilon 2
+:expanded: 3195:total algorithm time: 253
+
+reset
+distance travelled: 0
+A* with epsilon 2
+:expanded: 3195:total algorithm time: 214
+
+reset
+distance travelled: 0
+
+reset
+distance travelled: 0
+:expanded: 40377:total algorithm time: 13578
+
+reset
+distance travelled: 0
+A* with epsilon 1
+
+reset
+distance travelled: 0
+A* with epsilon 2
+:expanded: 3193:total algorithm time: 5035
+
+reset
+distance travelled: 0
+
+reset
+distance travelled: 0
+A* with epsilon 1
+
+reset
+distance travelled: 0
+A* with epsilon 2
+:expanded: 3193:total algorithm time: 4774
+
+reset
+distance travelled: 0
+
+reset
+distance travelled: 0
+ARA* with epsilon 3 and decrease factor 0,2 and min epsilon 1
+
+reset
+distance travelled: 0
+:expanded: 10363:total algorithm time: 16181
+
+reset
+distance travelled: 0
+
+reset
+distance travelled: 0
+A* with epsilon 2
+:expanded: 3194:total algorithm time: 4570
+
+reset
+distance travelled: 0
+:expanded: 4389:total algorithm time: 6248
+
+reset
+distance travelled: 0
+A* with epsilon 2
+:expanded: 1132:total algorithm time: 1583
+
+reset
+distance travelled: 0
+:expanded: 4878:total algorithm time: 6397
+
+reset
+distance travelled: 0
+A* with epsilon 2
+:expanded: 3195:total algorithm time: 240
+
+reset
+distance travelled: 0
+A* with epsilon 2
+
+reset
+distance travelled: 0
+
+reset
+distance travelled: 0
+A* with epsilon 2
+:expanded: 221:total algorithm time: 14
+
+reset
+distance travelled: 0
+A* with epsilon 2
+:expanded: 3195:total algorithm time: 3969
+
+reset
+distance travelled: 0
+A* with epsilon 1
+:expanded: 25830:total algorithm time: 39654
+
+reset
+distance travelled: 0
+A* with epsilon 2
+:expanded: 3723:total algorithm time: 5083
+
+reset
+distance travelled: 0
+A* with epsilon 2
+:expanded: 1132:total algorithm time: 186
+
+reset
+distance travelled: 0
+D* Lite with epsilon 2
+
+reset
+distance travelled: 0
+:expanded: 11873:total algorithm time: 929
+
+reset
+distance travelled: 0
+D* Lite with epsilon 1
+
+reset
+distance travelled: 0
+D* Lite with epsilon 2
+
+reset
+distance travelled: 0
+:expanded: 8698:total algorithm time: 816
+
+reset
+distance travelled: 0
+D* Lite with epsilon 2
+
+reset
+distance travelled: 0
+D* Lite with epsilon 2
+
+reset
+distance travelled: 0
+:expanded: 9602:total algorithm time: 469
+
+reset
+distance travelled: 0
+A* with epsilon 2
+:expanded: 3193:total algorithm time: 4178
+
+reset
+distance travelled: 0
+
+reset
+distance travelled: 0
