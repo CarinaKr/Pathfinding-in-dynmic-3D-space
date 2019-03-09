@@ -15,7 +15,7 @@ The full project is included in the folder "LostInSpace", which can be opened as
 For a demonstration of the pathfinding algorithms implemented in the scope of this thesis, open the scene "TestEnvironment" or "Pathfinding" in the Unity project or import the package "pathfindingAlgorithm" into Unity and open the scene "Pathfinding". Should an error message appear after import, similar to: "Assets/Plugins/AsyncAwaitUtil/Source/AwaitExtensions.cs(28,23): error CS1644: Feature 'asynchronous functions' cannot be used because it is not part of the C# 4.0 language specification", navigate to Edit->Project Settings->Player and change the "Scripting Runtime Version" to ".NET 4.x Equivalent" and restart Unity.
 
 <p align="center">
-  <img width="460" src="https://github.com/CarinaKr/Pathfinding-in-dynmic-3D-space/tree/master/readmeImages/scriptingRuntimeVersion.PNG">
+  <img width="460" src="https://github.com/CarinaKr/Pathfinding-in-dynmic-3D-space/blob/master/readmeImages/scriptingRuntimeVersion.PNG">
 
 In these scenes one can choose between a cell-grid and a waypoint-based search graph setup as the "Creation Mode"-variable of the "SearchGraphManager"-object. In the "SearchGraphManager" one can also choose the interval time.
 
