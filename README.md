@@ -76,7 +76,7 @@ For visualising the progress of the pathfinding algorithm, select the according 
 </p>
 
 Selecting the "SearchGraphManager" or "Environment" accordingly, one can then see all nodes in the open list 
-framed in magenta and all nodes in the closed list framed in grey. In the case of D* Lite, grey nodes indicate nodes that have been expanded earlier and are now consistent. Running dynamic algorithms with a static destination, one can also see all nodes that have been changed in the last update of the search graph indicated in blue, and all nodes that have been added to the open list after the last search-graph update in yellow. Please note: Visualising the progress of the pathfinding algorithm this way, increases the runtime of the algorithm significantly. Additionally, for a better overview it is advised to uncheck "Show All Nodes" when using this option.
+framed in magenta and all nodes in the closed list framed in grey. In the case of D* Lite, grey nodes indicate nodes whose g- and rhs-values have been calculated earlier and are now consistent. Running dynamic algorithms with a static destination, one can also see all nodes that have been changed in the last update of the search graph indicated in blue, and all nodes that have been added to the open list after the last search-graph update in yellow. Please note: Visualising the progress of the pathfinding algorithm this way, increases the runtime of the algorithm significantly. Additionally, for a better overview it is advised to uncheck "Show All Nodes" when using this option.
 
 <p align="center">
   <img width="550" src="https://github.com/CarinaKr/Pathfinding-in-dynmic-3D-space/blob/master/readmeImages/visualizeA_star.PNG">
