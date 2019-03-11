@@ -71,6 +71,7 @@ public abstract class SearchGraphManager : MonoBehaviour {
         while(isPublishing)
         {
             UnityEngine.Debug.Log("is publising");
+            yield return new WaitForUpdate();
         }
         isTakingSnapshot = true;
         
@@ -111,7 +112,10 @@ public abstract class SearchGraphManager : MonoBehaviour {
     }
     virtual protected IEnumerator TakeScreenshotPart(List<Node> changedNodes)
     {
-        while (isPublishing) { UnityEngine.Debug.Log("is publising"); }
+        while (isPublishing) {
+            UnityEngine.Debug.Log("is publising");
+            yield return new WaitForUpdate();
+        }
         isTakingSnapshot = true;
         
         int counter = changedNodes.Count / (maxFramesPart);
@@ -152,6 +156,11 @@ public abstract class SearchGraphManager : MonoBehaviour {
 
     virtual public IEnumerator PublishLastScreenshotEnumerator()
     {
+        while (isTakingSnapshot)
+        {
+            UnityEngine.Debug.Log("taking snapshot");
+        }
+        isPublishing = true; //UnityEngine.Debug.Log("start publishing line 163");
         float start = Time.realtimeSinceStartup;
         float delta = 0;
         int counter = nodes.Count / maxFrames;
@@ -205,11 +214,14 @@ public abstract class SearchGraphManager : MonoBehaviour {
                 counter = nodes.Count / maxFrames;
             }
         }
+        isPublishing = false; //UnityEngine.Debug.Log("done publishing line 217");
     }
     public void PublishLastScreenshot()
     {
-        while (isTakingSnapshot) { UnityEngine.Debug.Log("taking snapshot"); }
-        isPublishing = true;
+        while (isTakingSnapshot) {
+            UnityEngine.Debug.Log("taking snapshot");
+        }
+        isPublishing = true;// UnityEngine.Debug.Log("start publishing line 224");
         Profiler.BeginSample("publish last screenshot");
         int counter = nodes.Count / maxFrames;
         foreach (Node node in nodes)
@@ -242,11 +254,16 @@ public abstract class SearchGraphManager : MonoBehaviour {
            
         }
         Profiler.EndSample();
-        isPublishing = false;
+        isPublishing = false; //UnityEngine.Debug.Log("done publishing line 257");
     }
 
     public IEnumerator PublishLastScreenshotEnumerator(List<Node> changedNodes)
     {
+        while (isTakingSnapshot)
+        {
+            UnityEngine.Debug.Log("taking snapshot");
+        }
+        isPublishing = true; //UnityEngine.Debug.Log("start publishing line 266");
         int counter = changedNodes.Count / (maxFramesPart);
         foreach (Node node in changedNodes)
         {
@@ -276,12 +293,14 @@ public abstract class SearchGraphManager : MonoBehaviour {
                 counter = changedNodes.Count / (maxFramesPart);
             }
         }
-
+        isPublishing = false; //UnityEngine.Debug.Log("done publishing line 296");
     }
     public void PublishLastScreenshot(List<Node> changedNodes)
     {
-        while (isTakingSnapshot) { UnityEngine.Debug.Log("taking snapshot"); }
-        isPublishing = true;
+        while (isTakingSnapshot) {
+            UnityEngine.Debug.Log("taking snapshot");
+        }
+        isPublishing = true; //UnityEngine.Debug.Log("start publishing line 303");
         foreach (Node node in changedNodes)
         {
 
@@ -301,6 +320,6 @@ public abstract class SearchGraphManager : MonoBehaviour {
             }
             
         }
-        isPublishing = false;
+        isPublishing = false; //UnityEngine.Debug.Log("done publishing line 323");
     }
 }

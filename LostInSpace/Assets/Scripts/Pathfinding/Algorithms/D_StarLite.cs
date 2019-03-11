@@ -9,6 +9,7 @@ using UnityEngine.Profiling;
 
 public class D_StarLite : D_starBased {
     
+    public bool useMT;      //Moving Target D* Lite optimization
 
     protected float km;
     protected Node lastStart;
@@ -19,7 +20,7 @@ public class D_StarLite : D_starBased {
     }
     public override async Task FindPath()
     {
-        FileHandler.self.WriteString("D* Lite with epsilon " + epsilon+"\n");
+        FileHandler.self.WriteString("D* Lite with epsilon " + epsilon+" and MT="+useMT+"\n");
 
         await Task.Delay((int)delay).ConfigureAwait(false);
         //await new WaitForBackgroundThread();                  //should work as well, but is not reliable
@@ -114,11 +115,11 @@ public class D_StarLite : D_starBased {
                 }
 
                 publishTimer.Restart();
+                isUpdatingNodes = true;
                 searchGraphManager.PublishLastScreenshot(changes[0]);
                 publishTimer.Stop();
                 //FileHandler.self.WriteString("publish time: " + publishTimer.ElapsedMilliseconds);    //MEASURE 
 
-                isUpdatingNodes = true;
                 if (startNode == null)
                     startNode = searchGraphManager.GetStartNode();
                 else if(!startNode.publicIsFree)
@@ -130,7 +131,8 @@ public class D_StarLite : D_starBased {
                 searchGraphManager.UpdateHeuristic(startNode, epsilon);
                 Node oldGoalNode = goalNode;
                 goalNode = searchGraphManager.GetGoalNode();
-                if ((searchGraphManager is WaypointManagerInbetween && changes[0].Count>0) || oldGoalNode!=goalNode)
+                
+                if ((searchGraphManager is WaypointManagerInbetween && changes[0].Count>0) || (oldGoalNode!=goalNode && !useMT))
                 {
                     fastOpenListPrim.Clear();
                     km = 0;
@@ -138,12 +140,19 @@ public class D_StarLite : D_starBased {
                     goalNode.rhsValue = 0;
                     AddToFastOpen(goalNode);
                 }
+                else if(oldGoalNode != goalNode && useMT)
+                {
+                    goalNode.parentNode = null;
+                    changes[0].Add(oldGoalNode);
+
+                    UpdateChangedNodes(changes[0]);
+                }
                 else
                 {
                     UpdateChangedNodes(changes[0]);
                 }
-                isUpdatingNodes = false;
                 changes.Clear();
+                isUpdatingNodes = false;
             }
 
             ShortestPathLoop();
@@ -262,7 +271,7 @@ public class D_StarLite : D_starBased {
                 node.isInClosed = true;
             }
         }
-        else if(visualize)  //DEBUG
+        else if (visualize)  //DEBUG
         {
             node.isInOpen = false;  //DEBUG
             node.isInClosed = true;

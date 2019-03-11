@@ -40,6 +40,8 @@ public abstract class Pathfinder:MonoBehaviour {
     protected bool isUsingWaypoints;
     protected bool pathFound;
 
+    protected bool isUpdatingNodes;
+
     protected Stopwatch publishTimer,algTimer,timer;
 
     protected void OnEnable()
@@ -104,11 +106,22 @@ public abstract class Pathfinder:MonoBehaviour {
 
     virtual public void ChangesDetected(List<Node> changedNodes)
     {
+        //while (isUpdatingNodes)
+        //    UnityEngine.Debug.Log("isUpdatingNodes");
+
         if (changes.Count == 0)
             changes.Add(changedNodes);
         else
         {
+            if (changes.Count == 0)
+                UnityEngine.Debug.Log("changes =0");
             changes[0].AddRange(changedNodes);
+            if (changes.Count == 0)
+                UnityEngine.Debug.Log("changes =0");
+            if (changes[0].Distinct().ToList<Node>() == null)
+                UnityEngine.Debug.Log("distinct is null");
+            if (changes[0].Distinct().ToList<Node>().Count == 0)
+                UnityEngine.Debug.Log("distinct count is null");
             changes[0] = changes[0].Distinct().ToList<Node>();
         }
     }

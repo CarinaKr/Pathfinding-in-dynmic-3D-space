@@ -11,7 +11,8 @@ public class PathfindingSelector : MonoBehaviour {
         ARA_STAR,
         THETA_STAR,
         D_STAR_LITE,
-        AD_STAR
+        AD_STAR,
+        MT_D_STAR_LITE
     }
 
     public static PathfindingSelector self;
@@ -53,6 +54,9 @@ public class PathfindingSelector : MonoBehaviour {
                 break;
             case PathfindingMethod.AD_STAR:
                 pathfinder = GetComponentInChildren<AD_star>(true);
+                break;
+            case PathfindingMethod.MT_D_STAR_LITE:
+                pathfinder = GetComponentInChildren<MTD_StarLite>(true);
                 break;
         }
         if(pathfinder!=null)

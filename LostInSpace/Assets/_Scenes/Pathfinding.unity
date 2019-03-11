@@ -1871,7 +1871,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 413653251}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 41941bf5e1d10e7459c5f741caf87bca, type: 3}
   m_Name: 
@@ -1887,7 +1887,7 @@ MonoBehaviour:
   temporaryBlock: 1
   switchTime: 7
   startActive: 1
-  AI: {fileID: 0}
+  AI: {fileID: 1551651185}
   boxMultiply: {x: 3, y: 1.75, z: 1.5}
 --- !u!114 &413653257
 MonoBehaviour:
@@ -2462,7 +2462,7 @@ MonoBehaviour:
   temporaryBlock: 1
   switchTime: 5
   startActive: 0
-  AI: {fileID: 0}
+  AI: {fileID: 1551651185}
   boxMultiply: {x: 0, y: 0, z: 0}
 --- !u!114 &532241878
 MonoBehaviour:
@@ -2587,7 +2587,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 564987155}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 41941bf5e1d10e7459c5f741caf87bca, type: 3}
   m_Name: 
@@ -2603,7 +2603,7 @@ MonoBehaviour:
   temporaryBlock: 1
   switchTime: 3
   startActive: 1
-  AI: {fileID: 0}
+  AI: {fileID: 1551651185}
   boxMultiply: {x: 2, y: 1.5, z: 1.5}
 --- !u!114 &564987161
 MonoBehaviour:
@@ -5416,7 +5416,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1075270691}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 41941bf5e1d10e7459c5f741caf87bca, type: 3}
   m_Name: 
@@ -5432,7 +5432,7 @@ MonoBehaviour:
   temporaryBlock: 1
   switchTime: 5
   startActive: 1
-  AI: {fileID: 0}
+  AI: {fileID: 1551651185}
   boxMultiply: {x: 0, y: 0, z: 0}
 --- !u!114 &1075270697
 MonoBehaviour:
@@ -5632,6 +5632,11 @@ Prefab:
       propertyPath: goal
       value: 
       objectReference: {fileID: 1361336043}
+    - target: {fileID: 114897324292962966, guid: fc4978ab839863a4aa289769de8b61e8,
+        type: 2}
+      propertyPath: creationMethod
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc4978ab839863a4aa289769de8b61e8, type: 2}
   m_IsPrefabAsset: 0
@@ -6485,7 +6490,7 @@ MonoBehaviour:
   temporaryBlock: 1
   switchTime: 5
   startActive: 0
-  AI: {fileID: 0}
+  AI: {fileID: 1551651185}
   boxMultiply: {x: 0, y: 0, z: 0}
 --- !u!114 &1308987645
 MonoBehaviour:
@@ -8110,6 +8115,11 @@ Prefab:
       propertyPath: startPoint
       value: 
       objectReference: {fileID: 492658394}
+    - target: {fileID: 114525780767172308, guid: 60f9ba08d8dd3af41ad8a4775e1d0064,
+        type: 2}
+      propertyPath: moveSpeed
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60f9ba08d8dd3af41ad8a4775e1d0064, type: 2}
   m_IsPrefabAsset: 0
@@ -9438,17 +9448,7 @@ Prefab:
       propertyPath: m_RootOrder
       value: 11
       objectReference: {fileID: 0}
-    - target: {fileID: 114498155831573188, guid: 55cd184c6c10ecf49a2282777c714164,
-        type: 2}
-      propertyPath: ufoController
-      value: 
-      objectReference: {fileID: 1641109466}
-    - target: {fileID: 114368538897268558, guid: 55cd184c6c10ecf49a2282777c714164,
-        type: 2}
-      propertyPath: ufoController
-      value: 
-      objectReference: {fileID: 1641109466}
-    - target: {fileID: 114593199503662654, guid: 55cd184c6c10ecf49a2282777c714164,
+    - target: {fileID: 114823760521260820, guid: 55cd184c6c10ecf49a2282777c714164,
         type: 2}
       propertyPath: ufoController
       value: 
@@ -9458,15 +9458,40 @@ Prefab:
       propertyPath: ufoController
       value: 
       objectReference: {fileID: 1641109466}
-    - target: {fileID: 114823760521260820, guid: 55cd184c6c10ecf49a2282777c714164,
+    - target: {fileID: 114593199503662654, guid: 55cd184c6c10ecf49a2282777c714164,
         type: 2}
       propertyPath: ufoController
       value: 
       objectReference: {fileID: 1641109466}
-    - target: {fileID: 114593199503662654, guid: 55cd184c6c10ecf49a2282777c714164,
+    - target: {fileID: 114368538897268558, guid: 55cd184c6c10ecf49a2282777c714164,
         type: 2}
-      propertyPath: visualize
-      value: 0
+      propertyPath: ufoController
+      value: 
+      objectReference: {fileID: 1641109466}
+    - target: {fileID: 114498155831573188, guid: 55cd184c6c10ecf49a2282777c714164,
+        type: 2}
+      propertyPath: ufoController
+      value: 
+      objectReference: {fileID: 1641109466}
+    - target: {fileID: 114426246786872060, guid: 55cd184c6c10ecf49a2282777c714164,
+        type: 2}
+      propertyPath: ufoController
+      value: 
+      objectReference: {fileID: 1641109466}
+    - target: {fileID: 114133159248536784, guid: 55cd184c6c10ecf49a2282777c714164,
+        type: 2}
+      propertyPath: pathfindingMethod
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 114368538897268558, guid: 55cd184c6c10ecf49a2282777c714164,
+        type: 2}
+      propertyPath: epsilon
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114426246786872060, guid: 55cd184c6c10ecf49a2282777c714164,
+        type: 2}
+      propertyPath: epsilon
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 55cd184c6c10ecf49a2282777c714164, type: 2}

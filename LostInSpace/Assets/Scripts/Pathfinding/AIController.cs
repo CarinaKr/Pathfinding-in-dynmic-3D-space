@@ -93,9 +93,9 @@ public class AIController : MonoBehaviour {
 
     virtual public void Reset()
     {
-        movement.Reposition();
         FileHandler.self.WriteString("\nreset\n");
         FileHandler.self.WriteString("distance travelled: " + movement.distanceTraveled + "\n");
+        movement.Reposition();
         corridorDone = false;
 
         nextPosition = transform.position;

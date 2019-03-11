@@ -135,12 +135,12 @@ public class AD_star : D_starBased {
                     { node.isChanged = false; node.isInOpenAfterChange = false; }
                 }
                 publishTimer.Restart();
+                isUpdatingNodes = true;
                 searchGraphManager.PublishLastScreenshot(changes[0]);
                 publishTimer.Stop();
                 //FileHandler.self.WriteString("changes: " + changes[0].Count);
                 //FileHandler.self.WriteString("publishTime: " + publishTimer.ElapsedMilliseconds+"");  //MEASURE data in all-dynamic environment
                 timer.Restart();
-                isUpdatingNodes = true;
                 Node oldGoal = goalNode;
                 goalNode = searchGraphManager.GetGoalNode();
                 if ((searchGraphManager is WaypointManagerInbetween && changes[0].Count>0) || goalNode!=oldGoal)
@@ -177,7 +177,6 @@ public class AD_star : D_starBased {
                     Debug.Log("try updating heuristic with startnode=null");
                 searchGraphManager.UpdateHeuristic(startNode, epsilon);
                 heuristicJustUpdated = true;
-                isUpdatingNodes = false;
                     //changes.RemoveAt(0);
                     //if (visualize)  //DEBUG
                     //{
@@ -185,6 +184,7 @@ public class AD_star : D_starBased {
                     //        node.isChanged = false;
                     //}
                 changes.Clear();
+                isUpdatingNodes = false;
             }
             else if (subOptimalityBound > 1)
             {

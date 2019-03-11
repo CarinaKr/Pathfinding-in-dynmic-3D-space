@@ -13,7 +13,7 @@ public abstract class D_starBased : Pathfinder {
 
     protected FastPriorityQueue<Node> fastOpenListPrim;
     protected SortedDictionary<Node, float[]> sortedOpenList;
-    protected bool isUpdatingNodes;
+    //protected bool isUpdatingNodes;
     protected double[] newKeyValue, oldKeyValue;
     protected Node bestParentNode, newParent;
 
@@ -119,7 +119,7 @@ public abstract class D_starBased : Pathfinder {
                 }
         }
             node.rhsValue = minRHS;
-            node.parentNode = bestParentNode; 
+            node.parentNode = bestParentNode;
         }
     }
 
@@ -204,11 +204,13 @@ public abstract class D_starBased : Pathfinder {
 
     virtual protected void UpdateChangedNodes(List<Node> changedNodes)
     {
+        //FileHandler.self.WriteString("start UpdateChangedNodes \n");
         foreach (Node node in changedNodes)
-        {
+        { 
             UpdateNode(node);
             node.isChanged = true;
         }
+        //FileHandler.self.WriteString("done UpdateChangedNodes");
     }
 
     protected override void PrintList()
@@ -224,11 +226,10 @@ public abstract class D_starBased : Pathfinder {
         count++;
         if (corridor.Contains(child))
         {
-            Debug.Log("start node is free: " + startNode.isFree);
-            Debug.Log("child: "+child.publicGlobalPosition+" g: "+child.gValue+" path cost: "+ child.publicPathCosts[corridor[corridor.Count - 1]]);
-            Debug.Log("last corridor: " + corridor[corridor.Count - 1].publicGlobalPosition+" g: " + corridor[corridor.Count - 1].gValue+" path cost: "+ corridor[corridor.Count - 1].publicPathCosts[child]);
             Debug.Log("corridor contains child");
-            FileHandler.self.WriteString("corridor contains child");
+            //Debug.Log("start node is free: " + startNode.isFree);
+            //Debug.Log("child: "+child.publicGlobalPosition+" g: "+child.gValue+" path cost: "+ child.publicPathCosts[corridor[corridor.Count - 1]]);
+            //Debug.Log("last corridor: " + corridor[corridor.Count - 1].publicGlobalPosition+" g: " + corridor[corridor.Count - 1].gValue+" path cost: "+ corridor[corridor.Count - 1].publicPathCosts[child]);
             return;
         }
         

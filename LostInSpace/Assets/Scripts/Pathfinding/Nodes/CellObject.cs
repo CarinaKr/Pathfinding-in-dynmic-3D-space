@@ -30,8 +30,12 @@ public class CellObject : MonoBehaviour {
         g = cell.gValue;
         heuristic = cell.heuristic;
         plainHeuristic = cell.plainHeuristic;
-        //if (!isNext) return;
-        if (cell.isNextNode)
+        ////if (!isNext) return;
+        //if (cell.isInSubTree)
+        //    Gizmos.color = Color.blue;
+        //else if (cell.isInTree)
+        //    Gizmos.color = Color.cyan;
+         if (cell.isNextNode)
             Gizmos.color = Color.cyan;
         else if (cell.isLookaheadNode)
             Gizmos.color = Color.blue;

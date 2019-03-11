@@ -33,7 +33,7 @@ public class Node : FastPriorityQueueNode
     public double rhsValue;//{ get; set; }
 
     public double[] priorityKey;
-    public bool isInOpen,isInClosed,isNext,isInIncons, isChanged, isInOpenAfterChange,isNextNode,isLookaheadNode,isStartNode;
+    public bool isInOpen,isInClosed,isNext,isInIncons, isChanged, isInOpenAfterChange,isNextNode,isLookaheadNode,isStartNode,isInTree,isInSubTree;
 
     public void UpdateHeuristic(Vector3 goal,float inflate, bool updatePlain)
     {
