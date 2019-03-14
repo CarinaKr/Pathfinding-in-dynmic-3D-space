@@ -9481,7 +9481,7 @@ Prefab:
     - target: {fileID: 114133159248536784, guid: 55cd184c6c10ecf49a2282777c714164,
         type: 2}
       propertyPath: pathfindingMethod
-      value: 4
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 114368538897268558, guid: 55cd184c6c10ecf49a2282777c714164,
         type: 2}

@@ -82,3 +82,63 @@ success
 
 :expanded: 1472821:total algorithm time: 24196
 D* Lite with epsilon 1 and MT=False
+A* with epsilon 2
+A* with epsilon 2
+
+reset
+distance travelled: 37,65412
+A* with epsilon 2
+
+reset
+distance travelled: 42,55351
+:expanded: 14068:total algorithm time: 117
+D* Lite with epsilon 1 and MT=False
+
+reset
+distance travelled: 28,03928
+A* with epsilon 2
+
+reset
+distance travelled: 28,0432
+A* with epsilon 2
+
+reset
+distance travelled: 35,73528
+:expanded: 11218:total algorithm time: 77
+
+reset
+distance travelled: 17,8878
+A* with epsilon 2
+
+reset
+distance travelled: 29,2977
+:expanded: 9763:total algorithm time: 91
+
+reset
+distance travelled: 17,62705
+A* with epsilon 2
+
+reset
+distance travelled: 29,56645
+:expanded: 10058:total algorithm time: 87
+
+reset
+distance travelled: 15,75892
+A* with epsilon 2
+
+reset
+distance travelled: 29,98763
+A* with epsilon 2
+A* with epsilon 2
+A* with epsilon 2
+A* with epsilon 2
+A* with epsilon 2
+A* with epsilon 2
+A* with epsilon 2
+A* with epsilon 2
+A* with epsilon 2
+A* with epsilon 2
+
+reset
+distance travelled: 38,8352
+:expanded: 13013:total algorithm time: 103

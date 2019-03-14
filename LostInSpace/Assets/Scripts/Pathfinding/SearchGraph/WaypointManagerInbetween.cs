@@ -529,6 +529,7 @@ public class WaypointManagerInbetween : SearchGraphManager
         changedNodes.AddRange(directPathCostChanged);
 
         yield return new WaitForUpdate();
+        
         //update indirect neighbours
         int indirectCounter = 0;
         int counter = 0;
@@ -550,7 +551,8 @@ public class WaypointManagerInbetween : SearchGraphManager
             counter++;
             if (counter >= 5)
             {
-                yield return new WaitForEndOfFrame();
+                //yield return new WaitForEndOfFrame();
+                yield return null;
                 counter = 0;
             }
         }
@@ -576,8 +578,8 @@ public class WaypointManagerInbetween : SearchGraphManager
                 }
             }
         }
-        
-        changedNodes=changedNodes.Distinct().ToList();
+
+        changedNodes =changedNodes.Distinct().ToList();
         yield return StartCoroutine("TakeScreenshotPart", changedNodes);
         DetectedChanges(changedNodes);
         updateTimer.Stop();

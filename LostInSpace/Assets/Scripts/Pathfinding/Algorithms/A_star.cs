@@ -45,7 +45,7 @@ public class A_star : AStarBased
                 algTimer.Reset();
                 resetAlgorithm = false;
             }
-            
+
             await new WaitForBackgroundThread();
             //algTimer.Restart();   //MEASURE data for static AI and destination
             algTimer.Start();   //MEASURE data in all-dynamic environment
