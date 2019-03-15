@@ -120,7 +120,7 @@ public class WaypointManagerInbetween : SearchGraphManager
                         
                 }
             }
-            yield return new WaitForEndOfFrame();
+            yield return null;
         }
 
         SetNodes();
@@ -528,7 +528,7 @@ public class WaypointManagerInbetween : SearchGraphManager
         }
         changedNodes.AddRange(directPathCostChanged);
 
-        yield return new WaitForUpdate();
+        yield return null;
         
         //update indirect neighbours
         int indirectCounter = 0;

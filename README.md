@@ -12,7 +12,9 @@ The full project is included in the folder "LostInSpace", which can be opened as
 
 ### Demonstration ###
 
-For a demonstration of the pathfinding algorithms implemented in the scope of this thesis, open the scene "TestEnvironment" or "Pathfinding" in the Unity project or import the package "pathfindingAlgorithm" into Unity and open the scene "Pathfinding". Should an error message appear after import, similar to: "Assets/Plugins/AsyncAwaitUtil/Source/AwaitExtensions.cs(28,23): error CS1644: Feature 'asynchronous functions' cannot be used because it is not part of the C# 4.0 language specification", navigate to Edit->Project Settings->Player and change the "Scripting Runtime Version" to ".NET 4.x Equivalent" and restart Unity.
+For a video showing the most important pathfinding algorithms implemented in the scope of this thesis, download https://c4rina.itch.io/pathfinding-algorithms-in-a-dynamic-3d-space/download/nh6v87PXEQmecvk4RL_96tmqpMFg6OnyaXKAAkTj
+
+For a life demonstration of the pathfinding algorithms implemented in the scope of this thesis, open the scene "TestEnvironment" or "Pathfinding" in the Unity project or import the package "pathfindingAlgorithm" into Unity and open the scene "Pathfinding". Should an error message appear after import, similar to: "Assets/Plugins/AsyncAwaitUtil/Source/AwaitExtensions.cs(28,23): error CS1644: Feature 'asynchronous functions' cannot be used because it is not part of the C# 4.0 language specification", navigate to Edit->Project Settings->Player and change the "Scripting Runtime Version" to ".NET 4.x Equivalent" and restart Unity.
 
 <p align="center">
   <img width="460" src="https://github.com/CarinaKr/Pathfinding-in-dynmic-3D-space/blob/master/readmeImages/scriptingRuntimeVersion.PNG">
