@@ -5617,11 +5617,6 @@ Prefab:
       propertyPath: m_RootOrder
       value: 9
       objectReference: {fileID: 0}
-    - target: {fileID: 114796002132460920, guid: fc4978ab839863a4aa289769de8b61e8,
-        type: 2}
-      propertyPath: searchSpace
-      value: 
-      objectReference: {fileID: 1354481172}
     - target: {fileID: 114897324292962966, guid: fc4978ab839863a4aa289769de8b61e8,
         type: 2}
       propertyPath: start
@@ -5632,11 +5627,11 @@ Prefab:
       propertyPath: goal
       value: 
       objectReference: {fileID: 1361336043}
-    - target: {fileID: 114897324292962966, guid: fc4978ab839863a4aa289769de8b61e8,
+    - target: {fileID: 114796002132460920, guid: fc4978ab839863a4aa289769de8b61e8,
         type: 2}
-      propertyPath: creationMethod
-      value: 0
-      objectReference: {fileID: 0}
+      propertyPath: searchSpace
+      value: 
+      objectReference: {fileID: 1354481172}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc4978ab839863a4aa289769de8b61e8, type: 2}
   m_IsPrefabAsset: 0
@@ -9448,22 +9443,7 @@ Prefab:
       propertyPath: m_RootOrder
       value: 11
       objectReference: {fileID: 0}
-    - target: {fileID: 114823760521260820, guid: 55cd184c6c10ecf49a2282777c714164,
-        type: 2}
-      propertyPath: ufoController
-      value: 
-      objectReference: {fileID: 1641109466}
-    - target: {fileID: 114408865950133002, guid: 55cd184c6c10ecf49a2282777c714164,
-        type: 2}
-      propertyPath: ufoController
-      value: 
-      objectReference: {fileID: 1641109466}
-    - target: {fileID: 114593199503662654, guid: 55cd184c6c10ecf49a2282777c714164,
-        type: 2}
-      propertyPath: ufoController
-      value: 
-      objectReference: {fileID: 1641109466}
-    - target: {fileID: 114368538897268558, guid: 55cd184c6c10ecf49a2282777c714164,
+    - target: {fileID: 114426246786872060, guid: 55cd184c6c10ecf49a2282777c714164,
         type: 2}
       propertyPath: ufoController
       value: 
@@ -9473,26 +9453,26 @@ Prefab:
       propertyPath: ufoController
       value: 
       objectReference: {fileID: 1641109466}
-    - target: {fileID: 114426246786872060, guid: 55cd184c6c10ecf49a2282777c714164,
+    - target: {fileID: 114368538897268558, guid: 55cd184c6c10ecf49a2282777c714164,
         type: 2}
       propertyPath: ufoController
       value: 
       objectReference: {fileID: 1641109466}
-    - target: {fileID: 114133159248536784, guid: 55cd184c6c10ecf49a2282777c714164,
+    - target: {fileID: 114593199503662654, guid: 55cd184c6c10ecf49a2282777c714164,
         type: 2}
-      propertyPath: pathfindingMethod
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114368538897268558, guid: 55cd184c6c10ecf49a2282777c714164,
+      propertyPath: ufoController
+      value: 
+      objectReference: {fileID: 1641109466}
+    - target: {fileID: 114408865950133002, guid: 55cd184c6c10ecf49a2282777c714164,
         type: 2}
-      propertyPath: epsilon
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114426246786872060, guid: 55cd184c6c10ecf49a2282777c714164,
+      propertyPath: ufoController
+      value: 
+      objectReference: {fileID: 1641109466}
+    - target: {fileID: 114823760521260820, guid: 55cd184c6c10ecf49a2282777c714164,
         type: 2}
-      propertyPath: epsilon
-      value: 1
-      objectReference: {fileID: 0}
+      propertyPath: ufoController
+      value: 
+      objectReference: {fileID: 1641109466}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 55cd184c6c10ecf49a2282777c714164, type: 2}
   m_IsPrefabAsset: 0

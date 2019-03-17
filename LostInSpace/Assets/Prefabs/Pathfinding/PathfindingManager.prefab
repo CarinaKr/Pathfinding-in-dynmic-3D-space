@@ -231,7 +231,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6fb4769a522b6c45a25ae16dc7d4e58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pathfindingMethod: 1
+  pathfindingMethod: 0
 --- !u!114 &114368538897268558
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -245,7 +245,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ufoController: {fileID: 0}
   useThetaStar: 0
-  epsilon: 1
+  epsilon: 2
   visualize: 0
   lookahead: 0
   pathfindingHelper: {fileID: 11400000, guid: e6c0273a29aa4f54da15e4c795149a57, type: 2}
@@ -286,7 +286,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ufoController: {fileID: 0}
   useThetaStar: 0
-  epsilon: 1
+  epsilon: 2
   visualize: 0
   lookahead: 0
   pathfindingHelper: {fileID: 11400000, guid: e6c0273a29aa4f54da15e4c795149a57, type: 2}

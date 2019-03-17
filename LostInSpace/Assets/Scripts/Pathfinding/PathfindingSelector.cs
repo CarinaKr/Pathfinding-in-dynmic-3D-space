@@ -6,7 +6,6 @@ public class PathfindingSelector : MonoBehaviour {
 
     public enum PathfindingMethod
     {
-        IDLE,
         A_STAR,
         ARA_STAR,
         THETA_STAR,

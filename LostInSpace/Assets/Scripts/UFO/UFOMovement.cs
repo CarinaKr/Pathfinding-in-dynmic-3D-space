@@ -10,6 +10,7 @@ public class UFOMovement : MonoBehaviour {
 
     public bool useTargetPoint;
     public bool startCentre;
+    public Transform playerPosition;
 
     public float distanceTraveled { get; set; }
     private Vector3 lastPosition;
@@ -78,8 +79,8 @@ public class UFOMovement : MonoBehaviour {
             Vector3 direction = new Vector3(x, y, z);
 
             direction.Normalize();
-
-            transform.position = direction * (radius + (radius / 4));
+            if(radius!=0)
+                transform.position = playerPosition.position + (direction * (radius + (radius / 4)));
         }
     }
 

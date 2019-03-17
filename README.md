@@ -1,12 +1,12 @@
 This repository contains the results of the bachelor's thesis:
 
-### Implementation and comparison of pathfinding algorithms in a dynamic 3D space" ###
+### "Implementation and comparison of pathfinding algorithms in a dynamic 3D space" ###
 
 developed at the University of Applied Sciences Hamburg.
 
 In addition to a written paper the thesis includes a project, where the game environment "Lost in Space" was developed and the pathfinding algorithms A*, ARA*, Theta*, D* Lite, and AD* were implemented in an abstract test environment. For this project the game engine Unity 2018.2.10f1 was used.
 
-The full project is included in the folder "LostInSpace", which can be opened as a Unity project after download. The Unity project contains three game scenes. The scene "LostInSpace" contains the game environment "Lost in Space", with its functionalities as described in the thesis. The scene "TestEnvironment" contains the abstract test environment with all the implemented algorithms. It was used for testing and comparison of the algorithms throughout the thesis. The implementation of the AI and the destination in "TestEnvironment" uses some classes from "Lost In Space". Therfore a third scene "Pathfinding" is provided, which is fully independent from the game. In addition, the Unity package "pathfindingAlgorithms" is provided for a demonstration of only the pathfinding algorithms, without any of the game,.
+The full project is included in the folder "LostInSpace", which can be opened as a Unity project after download. The Unity project contains three game scenes. The scene "LostInSpace" contains the game environment "Lost in Space", with its functionalities as described in the thesis. The scene "TestEnvironment" contains the abstract test environment with all the implemented algorithms. It was used for testing and comparison of the algorithms throughout the thesis. The implementation of the AI and the destination in "TestEnvironment" uses some classes from "Lost In Space". Therfore a third scene "Pathfinding" is provided, which is fully independent from the game. In addition, the Unity package "pathfindingAlgorithms" is provided for a demonstration of only the pathfinding algorithms, without any of the game.
 
 
 

@@ -80,5 +80,7 @@ public class PlayerHealth : UFOHealth {
     public override void GameOver()
     {
         Debug.Log("Game Over");
+        Refill();
+        healthTop.material = healthColor[0];
     }
 }

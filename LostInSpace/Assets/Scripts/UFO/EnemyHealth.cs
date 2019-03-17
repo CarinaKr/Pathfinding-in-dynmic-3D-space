@@ -17,6 +17,7 @@ public class EnemyHealth : UFOHealth {
 
     public override void GameOver()
     {
+        Debug.Log("fail");
         controller.Reset();
         Refill();
     }

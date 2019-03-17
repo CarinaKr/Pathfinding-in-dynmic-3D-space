@@ -32,7 +32,7 @@ public class Theta_star : AStarBased
         }
         else if(!pathfindingHelper.LineOfSight(ufoController.transform.position, startNode.publicGlobalPosition, true))
         {
-            Debug.Log("no line of sight; new start node");
+            //Debug.Log("no line of sight; new start node");
             Vector3 dir = (startNode.publicGlobalPosition - ufoController.transform.position).normalized ;
             startNode = searchGraphManager.GetClosestNode(ufoController.transform.position + dir);
             Debug.DrawRay(ufoController.transform.position, dir, Color.red, 10f);
